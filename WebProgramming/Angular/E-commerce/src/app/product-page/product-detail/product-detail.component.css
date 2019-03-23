@@ -1,0 +1,121 @@
+.top-bar{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    overflow: hidden;
+    position: relative;
+    width: 100vw;
+    font-family: 'Oswald';
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.margin-0{
+    margin: 0 !important;
+}
+
+.product-filter-wrapper{
+    position: sticky;
+    padding: 10px;
+    top: 500px;
+    right: 30px;
+}
+
+.filter-tool{
+    height: auto;
+    border-radius: 2px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-top: 0;
+}
+
+.product-container{
+    background-color: white;
+    padding-left: 0 !important;
+    width: 100vw;
+    margin-top: 15px;
+    margin-bottom: 45px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+mat-card{
+    float: left;
+    margin: 5px;
+    width: 400px;
+    height: 250px;
+    border-radius: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding: 0 !important;
+}
+
+.product-image{
+    height: 70% !important;
+    width: 100%;
+    background-image: url('https://material.angular.io/assets/img/examples/shiba2.jpg');
+    background-size: cover;
+    background-position: top center;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dessertTypeCheckBox{
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 15px !important;
+}
+
+.dessert-type{
+    font-family: 'Oswald';
+    font-weight: lighter;
+    margin-bottom: 10px;
+    font-size: 22px;
+    border-bottom: 1px solid black;
+}
+
+.banner{
+    border-radius: 3px;
+    border: 2px solid white;
+    padding: 10px;
+    text-shadow: 1px 2px 15px rgb(63, 63, 63);
+}
+
+.product-title{
+    padding-left: 7px;
+    font-family: 'Oswald';
+    font-size: 21px;
+    font-weight: 300;
+    margin: 8px;
+    float: left;
+}
+
+.fill-space{
+    flex: 1 1 auto;
+}
+
+.product-button{
+    float: right;
+    margin-top: .45rem;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 2rem;
+}
+
+.product-card-bottom-wrapper{
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+.side-prompt{
+    padding: 1rem;
+    padding-top: 0;
+    height: auto;
+}
+
+.custom-column{
+    padding-right: 20px;
+    padding-left: 0px;
+    text-align: center;
+}

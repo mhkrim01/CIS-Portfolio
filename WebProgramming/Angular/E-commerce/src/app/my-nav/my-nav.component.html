@@ -1,0 +1,23 @@
+<mat-sidenav-container class="sidenav-container">
+  <div class="content-wrapper"></div>
+  <mat-sidenav-content>
+    <mat-toolbar class="">
+      <div class="home-nav-link no-border">
+        <div class="toolbar-icon">
+          <mat-icon routerLink="/home" class="cake-icon">cake</mat-icon>
+        </div>
+      </div>
+      <div class="nav-link" routerLink="/home">Home</div>
+      <div class="nav-link" routerLink="/products">Products</div>
+      <div class="nav-link" routerLink="/about">About</div>
+      <div class="nav-link" routerLink="/contact">Contact</div>
+      <span class="spacer"></span>
+      <button mat-icon-button>
+        <mat-icon>person</mat-icon>
+      </button>
+      <button mat-icon-button (click)="openCartModal()">
+        <mat-icon>shopping_cart</mat-icon>
+      </button>
+    </mat-toolbar>
+  </mat-sidenav-content>
+</mat-sidenav-container>

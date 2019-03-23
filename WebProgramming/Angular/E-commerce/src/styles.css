@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+html, body { height: 100%; }
+body { 
+  margin: 0; 
+  font-family: 'Source Sans Pro', "Helvetica Neue", sans-serif; 
+  overflow-x: hidden !important;
+    background-image: url(https://i.imgur.com/uYDQnbW.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom center;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+mat-card{
+    width: 20vw;
+    margin: 10px;
+    float: left;
+}
+
+*::-webkit-scrollbar {
+    width: 0.40em;
+    background-color: transparent;
+  }
+
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #bebebe;
+    outline: 1px solid #bdbdbd;
+    border-radius: 10px;
+  }
+
+  .mat-sidenav-content{
+    overflow-x: hidden !important;
+  }

@@ -1,0 +1,88 @@
+.body-container{
+    height: auto;
+    width: 100%;
+        background-image: url(https://i.imgur.com/uYDQnbW.jpg);
+        background-image: url(https://i.imgur.com/uYDQnbW.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        padding-top: 200px;
+
+}
+
+.top-banner{
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    letter-spacing: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 15px rgb(63, 63, 63);
+    margin-bottom: 25px;
+    height: 65vh;
+}
+
+.banner-main{
+    border-radius: 3px;
+    border: 2px solid white;
+    padding: 15px;
+}
+
+.banner-sub{
+    padding-top: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    max-width: 50%;
+    word-break: normal;
+    text-transform: none !important;
+    letter-spacing: normal;
+}
+
+.about-text-section{
+    padding-top: 15px;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.about-page-text{   
+    font-size: 18px;
+    font-weight: 100
+}
+
+h3{
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 35px;
+}
+
+.side-container-right{
+    padding-left: 5%;
+    padding-right: 7%;
+    margin-left: 15px;
+}
+
+.fancy-quote{
+    font-size: 45px;
+    opacity: .5;
+    padding-top: 10px;
+}
+
+.side-content{
+    font-family: 'Oswald';
+    font-weight: 200;
+    font-size: 18px;
+    text-align: center;
+}
+
+.reviewer-info{
+    font-size: 15px;
+}

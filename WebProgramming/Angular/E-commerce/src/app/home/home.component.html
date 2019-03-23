@@ -1,0 +1,132 @@
+<link rel="stylesheet" type="text/css"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+<div id="parallax-world-of-ugg" class="body-wrapper">
+
+    <section>
+        <div class="parallax-one parallax-img">
+            <h2>Sweet Karoline's Cakes</h2>
+            <p class="line-break margin-top-10" style="color: white;"></p>
+            <div class="text-container">
+                <p class="img-text-overlay">
+                    Baking unique, delectable cakes is not just a simple, casual
+                    past-time for Karoline, it's a way of life. With every cake, pie, cookie, or cupcake, Karoline pours
+                    the same heart and
+                    soul into baking delicious, high quality desserts now as she did when she first started
+                    baking years ago. Locally, Sweet Karoline's Cakes has gained a reputation for being able
+                    to provide the perfect dessert for any occasion. Give it a shot!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="shorter-parallax">
+        <div class="parallax-img parallax-two">
+        </div>
+    </section>
+
+    <section>
+        <div class="parallax-one parallax-img home-text-section mat-elevation-z6">
+            <div class="main-row row">
+                <div class="col-6">
+                    <div class="view-products-wrapper home-wrapper">
+                        <div class="row justify-content-center icon-row">
+                            <mat-icon>local_dining</mat-icon>
+                        </div>
+                        <div class="row justify-content-center order-title">
+                            <h3 class="shadow">Philosophy</h3>
+                        </div>
+                        <div class="row justify-content-center product-prompt">
+                            <p>
+                                Karoline has been given numerous awards and rave reviews
+                                for the unique and skilled twist she brings to baking.
+                                Her experience is unmatched, and it shows in the quality
+                                of her products.
+                            </p>
+                        </div>
+                        <div class="row justify-content-center">
+                            <button  routerLink="/about" mat-stroked-button>
+                                Learn more
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="about-wrapper home-wrapper">
+                        <div class="row justify-content-center icon-row">
+                            <mat-icon>shop</mat-icon>
+                        </div>
+                        <div class="row justify-content-center order-title">
+                            <h3 class="shadow">Shop now</h3>
+                        </div>
+                        <div class="row justify-content-center product-prompt">
+                            <p>
+                                Get started viewing Karoline's wide assortment of the best desserts
+                                you'll ever taste. You're going to like the way it tastes, we guarantee it.
+                            </p>
+                        </div>
+                        <div class="row justify-content-center">
+                            <button mat-stroked-button (click)="navigateToProducts()">
+                                View products
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="shorter-parallax">
+        <div class="parallax-img parallax-two"></div>
+    </section>
+
+    <section>
+        <div class="parallax-one parallax-img padding-top-20">
+            <div class="row justify-content-center">
+                <div class="col-4"></div>
+                <div class=" col-4 social-media-wrapper  mat-elevation-z6">
+                    <div class="row justify-content-center icon-row">
+                        <mat-icon>share</mat-icon>
+                    </div>
+                    <div class="row justify-content-center order-title">
+                        <h3 class="shadow">Follow and connect!</h3>
+                    </div>
+                    <div class="row justify-content-center product-prompt">
+                        <p>
+                            Sweet Karoline's Cake is on social media!
+                            Follow her page on Facebook, Instagram, and Twitter
+                            for the latest news and deals.
+                        </p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <button mat-stroked-button (click)="toggleFlyIn()">
+                            Connect now
+                        </button>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div [@showTwit]="flyIn" class="row">
+                        <div class="social-icon mat-elevation-z6">
+                            <fa name="facebook"></fa>
+                        </div>
+                    </div>
+                    <div [@showGram]="flyIn" class="row">
+                        <div class="social-icon mat-elevation-z6">
+                            <fa name="twitter"></fa>
+                        </div>
+                    </div>
+                    <div [@showFace]="flyIn" class="row">
+                        <div class="social-icon ">
+                            <fa name="instagram"></fa>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="shorter-parallax">
+        <div class="parallax-img parallax-two">
+        </div>
+    </section>
+</div>

@@ -1,0 +1,17 @@
+.example-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 50%;
+    background-color: white;
+    padding: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-top: 25vh;
+    margin-bottom: 35vh;
+}
+
+h5{
+    font-family: 'Oswald';
+    font-weight: 400;
+}

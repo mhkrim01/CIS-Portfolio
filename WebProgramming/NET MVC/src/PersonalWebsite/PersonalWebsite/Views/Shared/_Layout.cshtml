@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="icon" href="~/Content/Pictures/favicon-16x16.png" />
+
+    @System.Web.Optimization.Styles.Render("~/bundles/css", "~/Content/css")
+
+    @System.Web.Optimization.Scripts.Render("~/bundles/google-analytics")
+</head>
+
+
+<body>
+    <div id="container">
+        <div id="header">
+            @Html.Partial("Navbar")
+        </div>
+        <div id="body">
+            @RenderBody()
+        </div>
+        <div id="footer">
+            @Html.Partial("Footer")
+        </div>
+    </div>
+
+    <div id="particles-js"></div>@*particle background*@
+
+    @System.Web.Optimization.Scripts.Render("~/bundles/common-js", "~/bundles/bootstrap", "~/bundles/particles", "~/bundles/app-js")<!--render javascript bundles-->
+    @RenderSection("pagescripts")<!--render page specific scripts-->
+</body>
+</html>

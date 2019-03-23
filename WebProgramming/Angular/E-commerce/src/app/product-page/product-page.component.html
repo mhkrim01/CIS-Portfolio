@@ -1,0 +1,48 @@
+<div class="container margin-0">
+  <div class="row top-bar justify-content-center">
+    <h2 class="banner">Low calorie options elsewhere</h2>
+  </div>
+  <div class="row product-container">
+    <div class="col-2 product-filter-wrapper">
+      <div class="filter-tool">
+        <div class="example-container">
+          <form class="example-container">
+            <div class="dessert-type">
+              <span class="dessert-type">Dessert type</span>
+            </div>
+            <div class="dessertTypeCheckBox">
+              <mat-checkbox class="example-margin">Cake</mat-checkbox>
+              <mat-checkbox class="example-margin">Cupcake</mat-checkbox>
+              <mat-checkbox class="example-margin">Pie</mat-checkbox>
+              <mat-checkbox class="example-margin">Cookies</mat-checkbox>
+            </div>
+            <div class="dessert-type">
+              <span class="dessert-type">Flavor</span>
+            </div>
+            <div class="dessertTypeCheckBox">
+              <mat-checkbox class="example-margin">Chocolate</mat-checkbox>
+              <mat-checkbox class="example-margin">Vanilla</mat-checkbox>
+              <mat-checkbox class="example-margin">Pumpkin</mat-checkbox>
+              <mat-checkbox class="example-margin">Carrot</mat-checkbox>
+              <mat-checkbox class="example-margin">Italian Sweet Cream</mat-checkbox>
+              <mat-checkbox class="example-margin">Specialty</mat-checkbox>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="col-8 product-dashboard">
+      <div *ngFor="let product of products; let i = index">
+        <product-detail></product-detail>
+      </div>
+    </div>
+    <div class="col-2 custom-column">
+      <div class="row justify-content-center side-prompt">
+        <div class="side-prompt">
+          <p class="product-title">Nothing catching your eye?</p>
+        </div>
+        <button mat-raised-button>Create custom order!</button>
+      </div>
+    </div>
+  </div>
+</div>

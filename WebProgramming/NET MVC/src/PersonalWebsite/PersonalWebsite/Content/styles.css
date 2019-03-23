@@ -1,0 +1,204 @@
+﻿/*GENERAL STYLES*/
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#container {
+    min-height: 100%;
+    position: relative;
+}
+
+#header {    
+    padding: 5px;
+}
+
+#body {
+    background: rgba(246, 238, 238, 0.89);
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 60px; /* Height of the footer */
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0px; /* Height of the footer */
+    background: rgba(0, 0, 0, 0.71);
+}
+
+#h2-head {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 2px solid #172838;
+    padding: 6px 0;
+}
+
+#h3-head {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+#h3-statement {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border-bottom: solid 2px black;
+    border-top: solid 2px black;
+    padding-bottom: 35px;
+    padding-top: 20px;
+}
+
+
+
+#nav {
+    background: transparent;
+    border: solid 2px rgba(255, 255, 255, 0.83);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-right: 350px;
+    margin-left: 350px;
+}
+
+#ul li a {
+    color: white;
+}
+
+#ul li a:hover{
+    color: rgba(255, 255, 255, 0.48)
+}
+
+
+#profile img {
+    transform:scale(.1);
+    padding: -15px;
+    width: auto;
+    height: 100%;
+}
+
+.wrapper {
+    padding-left: 10px;
+}
+
+.image--cover {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 20px;
+    object-fit: cover;
+    object-position: center right;
+    transition: transform 500ms linear;
+}
+
+.image--cover:hover{
+    transform: scale(2);
+}
+
+.image--cover2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0px;
+    object-fit: cover;
+    object-position: center right;
+    transition: transform 500ms ease-out;
+}
+
+.image--cover2:hover {
+    transform: scale(7) translateY(85%) translateX(-100%);
+}
+
+/*------------------------------------image gallery styling------------------------------------------*/
+#gallery-container{
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 0 2rem 2rem;
+}
+
+#gallery-heading{
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 3.5rem 0;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+}
+
+#gallery-heading span{
+    display: block;
+}
+
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem -1rem;
+}
+
+#gallery-item{
+    flex: 1 0 24rem;
+    margin: 1rem;
+    overflow: visible;
+}
+
+
+#div-gallery-big-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transform: scale(.75,.75);
+    object-fit: cover;
+    transition: transform 400ms ease-out;
+}
+
+#div-gallery-big-image:hover {
+    -webkit-transform: scale(.99);
+    transform: scale(1.3);
+}
+
+/*--------------------------------unclickable button------------------------------------------------*/
+#button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 70px;
+    height: 50px;
+    font: 15px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*------------------------------resume pdf object----------------------------------------*/
+#resume {
+    padding-top: 20px; 
+    padding-bottom: 5px;
+    width: 100%;
+    height: 700px;
+}
+
+/*--------------------------------carousel----------------------------------------*/
+#carousel-img1 {
+    max-height: 50%;
+    max-width: 50%;
+    margin: auto;
+    transform: rotate(-90deg);
+}
+
+#carousel-img2 {
+    max-height: 50%;
+    max-width: 50%;
+    margin: auto;
+}
+
+#carousel-img3 {
+    max-height:100%;
+    max-width:88%;
+    margin: auto;
+}
