@@ -1,0 +1,10 @@
+In this section I've laid out examples of my programming work using C#.
+I started out with no knowledge whatsoever of programming, but after taking Software Development I and II,
+  I gained a very strong foundation to build off for my career.
+  
+In these projects and labs I gained hands on experience implementing SOLID design principles,
+  and programming concepts like polymorphism and inheritance. 
+  In the labs I use C# features like LINQ (Language Integrated Query) to query data from data structures like arrays and lists
+  I also used programming techniques such as nested looping structures to more efficiently iterate over larger data structures.
+  The programs I have included involve the development of a mock Library application that manages various types of objects,
+  and allows for checking out and returning items. In these programs, we also explored data serialization and how to manage streams.
