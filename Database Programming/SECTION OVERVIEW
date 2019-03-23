@@ -6,3 +6,6 @@ I knew absolutely nothing about databases or SQL before taking Database Design a
 
 I went from not knowing how to write a simple SELECT query, to being able to use complex self joins and
   nested queries.
+  
+The stored procedure and trigger involve concepts such as staging tables, aliases and concepts of conditional
+  query logic within a query.
