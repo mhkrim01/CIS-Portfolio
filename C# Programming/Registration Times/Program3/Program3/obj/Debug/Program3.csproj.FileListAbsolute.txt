@@ -1,0 +1,10 @@
+C:\Users\Michael\Documents\CIS 199\Programs\Program3\Program3\obj\Debug\Program3.csprojResolveAssemblyReference.cache
+C:\Users\Michael\Documents\CIS 199\Programs\Program3\Program3\obj\Debug\Program3.Properties.Resources.resources
+C:\Users\Michael\Documents\CIS 199\Programs\Program3\Program3\obj\Debug\Program3.csproj.GenerateResource.Cache
+C:\Users\Michael\Documents\CIS 199\Programs\Program3\Program3\obj\Debug\Program3.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\CIS 199\Programs\Program3\Program3\bin\Debug\Program3.exe.config
+C:\Users\Michael\Documents\CIS 199\Programs\Program3\Program3\bin\Debug\Program3.exe
+C:\Users\Michael\Documents\CIS 199\Programs\Program3\Program3\bin\Debug\Program3.pdb
+C:\Users\Michael\Documents\CIS 199\Programs\Program3\Program3\obj\Debug\Program3.exe
+C:\Users\Michael\Documents\CIS 199\Programs\Program3\Program3\obj\Debug\Program3.pdb
+C:\Users\Michael\Documents\CIS 199\Programs\Program3\Program3\obj\Debug\Program3.Program3RegistrationForm.resources
